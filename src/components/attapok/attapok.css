@@ -1,0 +1,33 @@
+.ext-rect{
+  background-color: var(--bg-attack);
+  max-width: 239px;
+  height: 150px;
+  border-radius: 20px;
+  transition:0.1s;
+  animation-name: translate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+
+.ext-rect:hover{
+  transform: scale(1.05);
+}
+
+.mid-rect{
+  background-color: var(--bg-attack-2);
+  min-width: 209px;
+  height: 89px;
+  border-radius: 20px;
+}
+.int-rect{
+  background-color: var(--bg-attack-3);
+  min-width: 188px;
+  height: 55px;
+  border-radius: 20px;
+  color: white;
+}
+
+img{
+  left: -5px;
+  top: -6px;
+}

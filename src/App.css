@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,12 +22,134 @@
 .App-link {
   color: #61dafb;
 }
+*/
 
-@keyframes App-logo-spin {
+@keyframes opacity {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
+}
+@keyframes translate {
+  from {
+    transform: translate(-100px,0px);
+  }
+  to {
+    transform: translate(0px,0px);
+  }
+}  
+
+@keyframes vibrate {
+  from {
+    transform: translate(-100px,0px);
+  }
+  to {
+    transform: translate(0px,0px);
+  }
+}
+
+@keyframes openDiv {
+  0%{ transform: scale(0,0);}
+  50%{ transform: scale(0.1,0.7);}
+  100%{ transform: scale(1,1);}
+}
+
+@keyframes closeDiv {
+  0%{ transform: scale(0,0);}
+  10%{ transform: scale(0.1,0.7);}
+  20%{ transform: scale(1,1);}
+  80%{ transform: scale(1,1);}
+  90%{ transform: scale(0.1,0.7);}
+  100%{ transform: scale(0,0);}
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px); }
+  10% { transform: translate(-1px, -2px); }
+  20% { transform: translate(-3px, 0px); }
+  30% { transform: translate(3px, 2px); }
+  40% { transform: translate(1px, -1px); }
+  50% { transform: translate(-1px, 2px); }
+  60% { transform: translate(-3px, 1px); }
+  70% { transform: translate(3px, 1px); }
+  80% { transform: translate(-1px, -1px); }
+  90% { transform: translate(1px, 2px); }
+  100% { transform: translate(1px, -2px); }
+}
+
+p{
+  color: white;
+}
+
+.final-screen{
+  background-color: black;
+  z-index: 200;
+  opacity: .8;
+  animation: closeDiv 3s paused;
+  width: 70vw;
+  animation-fill-mode: forwards;
+}
+
+.attacker{
+  top: 56px;
+  left: 138px;
+}
+
+.defender{
+  bottom: 200px;
+  right: 138px;
+}
+
+.attacks{
+  bottom:0px;
+  left:0px;
+  margin-left: 111px;
+  margin-bottom: 28px;
+}
+
+.pokeleft{
+  bottom: 80px;
+  left: 71px;
+}
+.pokeright{
+  top: -2px;
+  left: -82px;
+}
+
+.damage-1-img{
+  top: 137px;
+  left: 70px;
+}
+
+.damage-1-text{
+  color: brown;
+  top: 139px;
+  left: 170px;
+}
+
+.damage-2{
+  top: 51px;
+  left: -16px;
+}
+
+.damage-2-text{
+  color: brown;
+  top: 138px;
+    left: 160px;
+}
+
+.photo-pokemon{
+  animation-name: opacity, translate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+#myPhoto, #enemyPhoto {
+  animation-name: shake; 
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite; 
+  animation-play-state: paused;
+  animation-direction: reverse; 
 }

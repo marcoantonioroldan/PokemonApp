@@ -1,14 +1,75 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.ttf'); 
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --bg-hex: #FFF7C5;
+  --bg-name: #8F5C29;
+  --bg-attack: #FFFAE2;
+  --bg-attack-2: #9CAF9B;
+  --bg-attack-3: #563636;
+  --bg-bar-hp: #73DE05;
+  --bg-bar-exp: #F3D044;
+}
+
+html,body, #root{
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+.bg-img{
+  /* Location of the image */
+  background-image: url(assets/bg.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #ffffff;
+}
+
+.f19{
+  font-size: 16px
+}
+
+.f31{
+  font-size: 31px
+}
+
+.f22{
+  font-size: 22px
+}
+
+.f48{
+  font-size: 48px
+}
+
+.f25{
+  font-size: 25px
 }
