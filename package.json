@@ -2,7 +2,7 @@
   "name": "pokemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marcoantonioroldan.github.io/PokemonApp/docs",
+  "homepage": "./PokemonApp/docs",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.6",
