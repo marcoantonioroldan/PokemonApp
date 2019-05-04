@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/PokemonApp/static/css/main.2aceca57.chunk.css",
+    "main.js": "/PokemonApp/static/js/main.8e3afa7f.chunk.js",
+    "main.js.map": "/PokemonApp/static/js/main.8e3afa7f.chunk.js.map",
+    "runtime~main.js": "/PokemonApp/static/js/runtime~main.e20f190f.js",
+    "runtime~main.js.map": "/PokemonApp/static/js/runtime~main.e20f190f.js.map",
+    "static/js/2.3bed7eeb.chunk.js": "/PokemonApp/static/js/2.3bed7eeb.chunk.js",
+    "static/js/2.3bed7eeb.chunk.js.map": "/PokemonApp/static/js/2.3bed7eeb.chunk.js.map",
+    "index.html": "/PokemonApp/index.html",
+    "precache-manifest.5086988be1571fe091f1f2c32cfd061d.js": "/PokemonApp/precache-manifest.5086988be1571fe091f1f2c32cfd061d.js",
+    "service-worker.js": "/PokemonApp/service-worker.js",
+    "static/css/main.2aceca57.chunk.css.map": "/PokemonApp/static/css/main.2aceca57.chunk.css.map",
+    "static/media/index.css": "/PokemonApp/static/media/bg.32982742.jpg",
+    "static/media/blastoise-at.png": "/PokemonApp/static/media/blastoise-at.54e750a0.png",
+    "static/media/blastoise-at.ogg": "/PokemonApp/static/media/blastoise-at.c9640968.ogg",
+    "static/media/blastoise-dead.ogg": "/PokemonApp/static/media/blastoise-dead.82ce528b.ogg",
+    "static/media/blastoise-df.png": "/PokemonApp/static/media/blastoise-df.740a3b9c.png",
+    "static/media/blastoise-df.ogg": "/PokemonApp/static/media/blastoise-df.8a3ee3d9.ogg",
+    "static/media/charizard-at.png": "/PokemonApp/static/media/charizard-at.95074ddd.png",
+    "static/media/charizard-at.ogg": "/PokemonApp/static/media/charizard-at.ff2bbd83.ogg",
+    "static/media/charizard-dead.ogg": "/PokemonApp/static/media/charizard-dead.c2f059fc.ogg",
+    "static/media/charizard-df.ogg": "/PokemonApp/static/media/charizard-df.33b1c2c9.ogg",
+    "static/media/charizard-df.png": "/PokemonApp/static/media/charizard-df.ea2d83f8.png",
+    "static/media/fondo.mp3": "/PokemonApp/static/media/fondo.659664f8.mp3",
+    "static/media/golpe.png": "/PokemonApp/static/media/golpe.cf04c1ad.png",
+    "static/media/pokebola.png": "/PokemonApp/static/media/pokebola.468f7826.png"
+  }
+}
