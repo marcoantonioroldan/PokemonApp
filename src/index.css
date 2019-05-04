@@ -33,7 +33,7 @@ code {
 
 .bg-img{
   /* Location of the image */
-  background-image: url(assets/bg.jpg);
+  background-image: url(./assets/bg.jpg);
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;

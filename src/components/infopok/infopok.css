@@ -1,10 +1,7 @@
-
-
 .hexagon{
-  --hexHeigh : 0em; /*Needs to be overrite*/
-  --hexWidth : 0em; /*Needs to be overrite*/
-  --hexBackground: white; /*Needs to be overrite*/
-
+  --hexHeigh : 0px; 
+  --hexWidth : 0px; 
+  --hexBackground: white; 
   background: var(--hexBackground);
   height: var(--hexHeigh);
   width: var(--hexWidth);
@@ -12,29 +9,29 @@
   z-index: 1;
 }
 .hex-regular{
-  width: Calc(0.576923 *  var(--hexHeigh));
+  width: calc(0.576923 *  var(--hexHeigh));
 }
 .hexagon::before{
   position: absolute;
   content: ' ';
-  left: Calc(0% - var(--hexHeigh));
+  left: calc(0% - var(--hexHeigh));
   height: var(--hexHeigh);
   width: var(--hexHeigh);
-  border-top: Calc(var(--hexHeigh)/2) solid transparent;
-  border-bottom: Calc(var(--hexHeigh)/2) solid transparent;
-  border-left: Calc(var(--hexHeigh)/2) solid transparent;
-  border-right: Calc(var(--hexHeigh)/3 ) solid var(--hexBackground);
+  border-top: calc(var(--hexHeigh)/2) solid transparent;
+  border-bottom: calc(var(--hexHeigh)/2) solid transparent;
+  border-left: calc(var(--hexHeigh)/2) solid transparent;
+  border-right: calc(var(--hexHeigh)/3 ) solid var(--hexBackground);
 }
 .hexagon::after{
   position: absolute;
   content: ' ';
-  right: Calc(0% - var(--hexHeigh));
+  right: calc(0% - var(--hexHeigh));
   height: var(--hexHeigh);
   width: var(--hexHeigh);
-  border-top: Calc(var(--hexHeigh)/2) solid transparent;
-  border-bottom: Calc(var(--hexHeigh)/2) solid transparent;
-  border-left: Calc(var(--hexHeigh)/3) solid var(--hexBackground);
-  border-right: Calc(var(--hexHeigh)/2) solid transparent;
+  border-top: calc(var(--hexHeigh)/2) solid transparent;
+  border-bottom: calc(var(--hexHeigh)/2) solid transparent;
+  border-left: calc(var(--hexHeigh)/3) solid var(--hexBackground);
+  border-right: calc(var(--hexHeigh)/2) solid transparent;
 }
 
 .name-div{

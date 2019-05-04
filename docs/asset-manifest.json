@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.361c6f7d.chunk.css",
+    "main.js": "/static/js/main.086500a5.chunk.js",
+    "main.js.map": "/static/js/main.086500a5.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.3bed7eeb.chunk.js": "/static/js/2.3bed7eeb.chunk.js",
+    "static/js/2.3bed7eeb.chunk.js.map": "/static/js/2.3bed7eeb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.892e2595cfdb8ee7811700c98cb9318c.js": "/precache-manifest.892e2595cfdb8ee7811700c98cb9318c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.361c6f7d.chunk.css.map": "/static/css/main.361c6f7d.chunk.css.map",
+    "static/media/index.css": "/static/media/bg.32982742.jpg",
+    "static/media/blastoise-at.png": "/static/media/blastoise-at.54e750a0.png",
+    "static/media/blastoise-at.ogg": "/static/media/blastoise-at.c9640968.ogg",
+    "static/media/blastoise-dead.ogg": "/static/media/blastoise-dead.82ce528b.ogg",
+    "static/media/blastoise-df.png": "/static/media/blastoise-df.740a3b9c.png",
+    "static/media/blastoise-df.ogg": "/static/media/blastoise-df.8a3ee3d9.ogg",
+    "static/media/charizard-at.png": "/static/media/charizard-at.95074ddd.png",
+    "static/media/charizard-at.ogg": "/static/media/charizard-at.ff2bbd83.ogg",
+    "static/media/charizard-dead.ogg": "/static/media/charizard-dead.c2f059fc.ogg",
+    "static/media/charizard-df.ogg": "/static/media/charizard-df.33b1c2c9.ogg",
+    "static/media/charizard-df.png": "/static/media/charizard-df.ea2d83f8.png",
+    "static/media/fondo.mp3": "/static/media/fondo.659664f8.mp3",
+    "static/media/golpe.png": "/static/media/golpe.cf04c1ad.png",
+    "static/media/pokebola.png": "/static/media/pokebola.468f7826.png"
+  }
+}

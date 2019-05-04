@@ -1,7 +1,5 @@
 import React,{Component} from 'react'
 import { ProgressBar } from 'react-bootstrap';
-
-
 import './infopok.css'
 
 class Infopok extends Component{
@@ -17,7 +15,7 @@ class Infopok extends Component{
         this.props.somePokemonDie(vita,name);
 
         return(
-            <div    className="hex-item-border hexagon d-flex mt-4" style={{'--hexBackground':'white', '--hexHeigh':'105px', '--hexWidth':'415px'}}>
+            <div className="hex-item-border hexagon d-flex mt-4" style={{'--hexBackground':'white', '--hexHeigh':'105px', '--hexWidth':'415px'}}>
                 <div className=" hex-item-inner hexagon m-auto d-flex position-relative" style={{'--hexBackground':'var(--bg-hex)', '--hexHeigh':'95px', '--hexWidth':'405px'}}>
                     <div className="position-absolute position-relative w-100 name-div text-left align-items-center">
                         <span className="f31 position-absolute name">
